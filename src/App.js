@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Pages from "./pages";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <p>Some simple header page</p>
       </header>
+        <Pages />
+      <footer className="App-footer">
+        <p>
+          This is just a simple footer to show on the bottom part of the page.
+        </p>
+      </footer>
     </div>
   );
 }
